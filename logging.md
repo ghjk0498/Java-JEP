@@ -42,7 +42,7 @@ Spring Boot에서 Log4J2를 사용하려면, 기본 로깅 프레임워크를 Lo
    implementation 'org.springframework.boot:spring-boot-starter-log4j2'
    ```
 
-2. **기존 로깅 의존성 제거**: `spring-boot-starter-logging` 의존성을 제거합니다.
+2. **기존 로깅 의존성 제거**: `spring-boot-starter-logging` 의존성을 제거합니다. => log4j2 라이브러리 추가 시 spring boot가 자동으로 log4j2 사용
 
 3. **Log4J2 설정 파일 추가**: `log4j2.xml`, `log4j2.json`, `log4j2.yaml` 중 하나의 설정 파일을 src/main/resources 디렉토리에 추가합니다.
 
